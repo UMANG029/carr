@@ -1,0 +1,78 @@
+*{
+margin: 0;
+
+
+}
+
+
+canvas{
+
+margin-top: 13vmin;
+margin-left: 3.5vmin;
+}
+.lost{
+height: 20vmin;
+font-size: 15vmin;
+background-color: brown;
+position: absolute;
+top: 30vmin;
+left: 18vmin;
+visibility: hidden;
+}
+.score{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+height: 10vmin;
+width: 60vmin;
+font-size: 10vmin;
+background-color: rgb(12, 4, 233);
+color: white;
+position: absolute;
+top: 1vmin;
+left: 19vmin;
+}
+button a{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+height: 10vmin;
+width: 15vmin;
+font-size: 4vmin;
+background-color: black;
+font-style: italic;
+position: absolute;
+bottom: 1vmin;
+left: 39vmin;
+text-decoration: none;
+color: white;
+}
+.left{
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+height: 20vmin;
+width: 20vmin;
+font-size: 4vmin;
+position: absolute;
+bottom: 30vmin;
+left: 20vmin;
+background-color: rgb(186, 167, 23);
+
+
+}
+.right{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+height: 20vmin;
+width: 20vmin;
+font-size: 4vmin;
+position: absolute;
+bottom: 30vmin;
+left: 60vmin;
+background-color: rgb(186, 167, 23);
+
+
+}
